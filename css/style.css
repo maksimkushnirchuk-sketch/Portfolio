@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.resume-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Навігація */
+.navigation {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #a0522d; /* Приємний колір Rust */
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d2691e;
+}
+
+/* Основна сітка */
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Ліва колонка */
+.info-panel {
+    width: 30%;
+    background-color: #a0522d; /* Новий основний колір */
+    padding: 30px 20px;
+    color: #fff;
+}
+
+.profile-pic-container img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.2);
+    margin-bottom: 25px;
+}
+
+.info-group {
+    margin-bottom: 30px;
+}
+
+.info-group h3 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.divider-light {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin: 10px 0;
+}
+
+.details-list li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.language-grid li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+/* Права колонка */
+.experience-panel {
+    width: 70%;
+    padding: 40px;
+}
+
+.candidate-name {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.resume-section {
+    margin-bottom: 35px;
+}
+
+.resume-section h2 {
+    color: #a0522d;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.divider-dark {
+    border: none;
+    border-top: 2px solid #a0522d;
+    width: 50px;
+    margin: 8px 0 20px;
+}
+
+.job-item {
+    margin-bottom: 20px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.period {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.company-info {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.job-desc {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.courses-list li {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.portfolio-links a {
+    color: #a0522d;
+    text-decoration: underline;
+}
+
+.page-footer {
+    height: 40px;
+}
