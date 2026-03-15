@@ -168,3 +168,31 @@ body {
 .page-footer {
     height: 40px;
 }
+
+#projects a{
+    display: inline-block;
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #a0522d;
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    
+}
+
+#projects a:hover {
+    background-color: #a0522d; 
+}
+
+#projects li{
+    padding: 3px;
+    transition: all 1s ease; 
+    display: flex;
+    align-items: center;
+}
+#projects ol{
+    display: flex;
+    flex-wrap: wrap;
+}
